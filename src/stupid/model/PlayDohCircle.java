@@ -1,5 +1,7 @@
 package stupid.model;
 
+
+
 public class PlayDohCircle 
 {
 	//Declaration section
@@ -21,5 +23,7 @@ public String toString()
 	String description = "I am a playdoh circle and my size is " + size;
 	return description;
 }
+
+
 
 }

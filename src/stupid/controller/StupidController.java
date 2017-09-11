@@ -1,11 +1,13 @@
 package stupid.controller;
 
+import java.util.Scanner;
+
 import stupid.model.PlayDohCircle;
 import stupid.model.PlayDohCube;
 
 public class StupidController 
 {
-
+	
 	public void start()
 	{
 		PlayDohCircle firstCircle = new PlayDohCircle();
@@ -27,6 +29,19 @@ public class StupidController
 		
 			System.out.println("My name is Amber. I am a CIborg and I love to write. I am 17 years old.");
 		
+			testScanner();
+	}
+	private void testScanner()
+	{
+		Scanner firstScanner;
+		firstScanner = new Scanner (System.in);
+		System.out.println("Please type in your favorite food.");
+	
+		String answer = firstScanner.nextLine();
+		System.out.println("Oh, you like to eat " + answer);
+		System.out.println("How old are you?");
+		int ageAnswer = firstScanner.nextInt();
+		System.out.println("You said that you are " + ageAnswer + " years old.");
 	}
 	
 }

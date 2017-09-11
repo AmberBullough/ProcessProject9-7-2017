@@ -16,7 +16,7 @@ public PlayDohCube (int size)
 	}
 public String toString()
 {
-	String description = "I am a playdoh cube and my size is" +size;
+	String description = "I am a playdoh cube and my size is " +size;
 	return description;
 }
 }

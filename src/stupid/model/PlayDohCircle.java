@@ -23,7 +23,10 @@ public String toString()
 	String description = "I am a playdoh circle and my size is " + size;
 	return description;
 }
-
+	public void setSize(int updateSize)
+	{
+		this.size = updateSize;
+	}
 
 
 }
